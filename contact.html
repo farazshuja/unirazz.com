@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<link rel='shortcut icon' href='img/favicon.png' type='image/x-icon'/ >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Unirazz Services - Contact</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animated.js"></script>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    <script src="js/map.js"></script>
+  </head>
+    
+  <header>
+    <div class="container top-menu">
+      <div class="row">
+        <div class="col-sm-offset-1 col-sm-3 col-md-2 top-text">
+          <i class="icon-phone orange-icon"></i> +92-320-(UNIRAZZ)
+        </div>
+        <div class="col-sm-8 col-md-9 top-text">
+         <a class="top-text" href="mailto:info@unirazz.com" target="_top"><i class="icon-envelope orange-icon"></i> info@unirazz.com</a> 
+        </div>
+      </div>
+    </div>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a id="home" href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="vision-mission.html">Vision &amp; Mission</a></li>
+              <li><a href="hierarchy.html">Hierarchy</a></li>
+              <li><a href="work.html">Our Work</a></li>
+              <li><a href="services.html">Our Services</a></li>
+              <li><a id="current" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+    <body>
+    <div class="container-fluid">
+      <div class="main-background">
+        <div class="image-cover">
+          <h1 class="main-title"><span class="white-title">CONTACT</span><br><span class="orange-title">UNIRAZZ SERVICES</span></h1>
+        </div>
+      </div>    
+    </div>
+    <div class="container contact-options">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>WHERE TO FIND US</h3>
+          <h6>This is how you can contact us</h6>
+          <div class="img-wrapper">
+            <img src="img/lines-orange.png">
+          </div>
+       </div>
+      </div>
+      <div class="row circle-wrapper">
+        <div class="col-xs-12 col-sm-3">
+          <div class="circle orange-icon white-icon">
+            <i class="icon-phone"></i>
+            <h4>PHONE</h4>
+            <img src="img/lines-orange.png">
+          </div>
+          <pre>+92-320-(UNIRAZZ)</pre>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="circle orange-icon white-icon">
+            <i class="icon-location"></i>
+            <h4>ADDRESS</h4>
+            <img src="img/lines-orange.png">
+          </div>
+          <pre>29-31, First Floor, Israr 
+Centre, B-I, Johar Town, 
+Lahore-Pakistan</pre>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="circle orange-icon white-icon">
+            <i class="icon-envelope"></i>
+            <h4>E-MAIL</h4>
+            <img src="img/lines-orange.png">
+          </div>
+          <pre>info@unirazz.com</pre>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="circle orange-icon white-icon">
+            <i class="icon-calendar"></i>
+            <h4>WORKING HOURS</h4>
+            <img src="img/lines-orange.png">
+          </div>
+          <pre>Mon to Fri: 10:00 - 18:00</pre>
+        </div>
+      </div>
+    </div>
+    <div class="container contact-form">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 class="white-text">CONTACT US</h3>
+          <h6 class="white-text">Contact us for more information</h6>
+          <div class="img-wrapper">
+            <img src="img/lines-white.png">
+          </div>
+       </div>
+      </div>
+      <div class="row contact-wrapper">
+        <div class="col-xs-12 col-sm-6">
+          <div class="map-wrapper">
+             <div id="map-canvas">
+             </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <form action="">
+            <div>Name <input type="text" name="name"></div>
+            <div>Email <input type="text" name="email"></div>
+            <div>Subject <input type="text" name="subject"></div>
+            <div>Message <textarea></textarea></div>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+   <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2">
+          <a href="index.html">
+            <img src="img/logo.png" alt="">
+          </a>
+        </div>
+        <div class="col-xs-3">
+          <pre class="bottom-text">29-31, First Floor, Israr Centre, B-I, Johar Town, Lahore-Pakistan
+Tel: +92-320-(UNIRAZZ) 
+<a class="bottom-text" href="mailto:info@unirazz.com" target="_top">info@unirazz.com</a>
+          </pre>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <ul>
+            <a href="index.html"><li class="sitemap-text">Home</li></a>
+            <a href="about.html"><li class="sitemap-text">About Us</li></a>
+            <a href="vision-mission.html"><li class="sitemap-text">Vision &amp; Mission</li></a>
+            <a href="hierarchy.html"><li class="sitemap-text">Hierarchy</li></a>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-md-2">
+          <ul>
+            <a href="work.html"><li class="sitemap-text">Our Work</li></a>
+            <a href="services.html"><li class="sitemap-text">Our Services</li></a>
+            <a href="contact.html"><li class="sitemap-text">Contact</li></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>

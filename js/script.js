@@ -60,5 +60,9 @@ $(function(){
     }
   });
   
+  // Mobile Menu Toggle
+  $('#menuToggle').on('click', function() {
+    $('#navLinks').toggleClass('active');
+  });
   
 });

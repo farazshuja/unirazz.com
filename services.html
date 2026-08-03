@@ -1,226 +1,272 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-	<link rel='shortcut icon' href='img/favicon.png' type='image/x-icon'/ >
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!-- Fonts and Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/modern.css">
+    
     <title>Unirazz Services - Services</title>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
   </head>
-    
-  <header>
-    <div class="container top-menu">
-      <div class="row">
-        <div class="col-sm-offset-1 col-sm-3 col-md-2 top-text">
-          <i class="icon-phone orange-icon"></i> +92-42-3522 3011
-        </div>
-        <div class="col-sm-8 col-md-9 top-text">
-         <a class="top-text" href="mailto:info@unirazz.com" target="_top"><i class="icon-envelope orange-icon"></i> info@unirazz.com</a> 
-        </div>
-      </div>
-    </div>
-    <nav class="navbar" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html"><span>Home</span></a></li>
-              <li><a href="about.html"><span>About</span></a></li>
-              <li><a href="vision-mission.html"><span>Vision &amp; Mission</span></a></li>
-              <li><a href="hierarchy.html"><span>Hierarchy</span></a></li>
-              <li><a href="work.html"><span>Our Work</span></a></li>
-              <li><a id="current" href="services.html"><span>Our Services</span></a></li>
-              <li><a href="contact.html"><span>Contact</span></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-  </header>  
-    <body>
-    <div class="container-fluid">
-      <div class="main-background">
-        <div class="image-cover">
-          <h1 class="main-title"><span class="white-title">OUR</span><br><span class="orange-title">SERVICES</span></h1>
-        </div>
-      </div>    
-    </div>
-    <div class="container work-with-us">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="white-text">WORK WITH US!</h3>
-          <div class="img-wrapper">
-            <img src="img/lines-white.png">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-offset-3 col-sm-2 col-xs-12">
-          <div class="button-wrapper">
-            <a href="work.html">
-               <button class="button white-btn ">View Our Projects</button>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-2 col-xs-12"> 
-          <pre class="or"> - OR - </pre>
-        </div>
-        <div class="col-sm-2 col-xs-12">
-          <div class="button-wrapper">
-            <a href="contact.html">
-              <button class="button white-btn">Contact Us</button>
-            </a>
-          </div>
+  
+  <body>
+    <!-- Top Contact Bar -->
+    <div class="top-menu">
+      <div class="container">
+        <div class="top-contact">
+          <span><i class="icon-phone orange-icon"></i> +92-320-(UNIRAZZ)</span>
+          <a href="mailto:info@unirazz.com"><i class="icon-envelope orange-icon"></i> info@unirazz.com</a>
         </div>
       </div>
     </div>
-    <div class="middle-menu">
-     <div class="big-button-wrapper">
-       <div class="big-button">
-        <ul>
-          <li id="designing">DESIGNING</li>
-          <li id="consultancy">PROCUREMENT CONSULTANCY</li>
-          <li id="construction">CONSTRUCTION WORKS</li>
+
+    <!-- Header & Navigation -->
+    <header>
+      <nav class="navbar-custom">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="Unirazz Logo">
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="vision-mission.html">Vision &amp; Mission</a></li>
+          <li><a href="hierarchy.html">Hierarchy</a></li>
+          <li><a class="active" href="services.html">Services</a></li>
+          <li><a href="work.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
+      </nav>
+    </header>
+
+    <!-- Subpage Hero -->
+    <section class="hero-section hero-subpage">
+      <div class="hero-content centered">
+        <h1 class="hero-title">Our Services</h1>
+        <p class="hero-subtitle" style="margin: 0 auto;">Designing, Procurement Consultancy and Construction Works</p>
+      </div>
+    </section>
+
+    <!-- Content Section with tabs -->
+    <section class="section-bg-light">
+      <div class="container">
+        <div class="gallery-tabs big-button">
+          <button class="tab-btn active" id="designing">Designing</button>
+          <button class="tab-btn" id="consultancy">Procurement Consultancy</button>
+          <button class="tab-btn" id="construction">Construction Works</button>
+        </div>
+
+        <!-- Designing Tab Content -->
+        <div class="designing main-services">
+          <div class="about-grid" style="margin-top: 40px;">
+            <div class="about-text" style="background-color: var(--white); padding: 40px; border-radius: 8px; border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+              <h3 style="font-size: 24px; color: var(--primary); margin-bottom: 20px; text-transform: uppercase;">Designing Services</h3>
+              <ul style="list-style: none; display: flex; flex-direction: column; gap: 15px;">
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Residential and Commercial Units Architectural and Structural Drawings and Designing.</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Substation Design which includes Primary Designing / Secondary Designing, Protection schemes, and Civil Foundation Drawings.</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="about-text" style="background-color: var(--white); padding: 40px; border-radius: 8px; border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+              <h3 style="font-size: 20px; color: var(--dark); margin-bottom: 20px; text-transform: uppercase;">Primary Design Includes</h3>
+              <ul style="list-style: none; display: flex; flex-direction: column; gap: 15px;">
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Single Line Diagrams / Layout Plans / Switch Yard Plans and Control House Building Equipment Layout, Foundation Plans.</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Detailed designing of equipment foundations as per equipment and Soil investigation reports.</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Control House Building, Structural and Architectural Design.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Procurement Tab Content -->
+        <div class="consultancy main-services" style="display: none;">
+          <div class="about-grid" style="margin-top: 40px;">
+            <div class="about-text" style="background-color: var(--white); padding: 40px; border-radius: 8px; border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+              <h3 style="font-size: 24px; color: var(--primary); margin-bottom: 20px; text-transform: uppercase;">Equipment Sourcing</h3>
+              <p style="margin-bottom: 20px; font-weight: 500; font-size: 15px;">Procurement Consultancy and Supply of Substation &amp; Transmission Line Equipment and Material:</p>
+              <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px;">
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Power Transformers / Auto Transformer / Distribution Transformers</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Switch Yard Equipment</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Control House Building Control and Protection Panels</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Steel Structures &amp; Termination Material</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Testing Equipment &amp; Yard Lighting</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="about-text" style="background-color: var(--white); padding: 40px; border-radius: 8px; border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+              <h3 style="font-size: 20px; color: var(--dark); margin-bottom: 20px; text-transform: uppercase;">Line Materials</h3>
+              <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; margin-top: 40px;">
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Lightning Protection Equipment</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Substation and Transmission Line Hardware</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Power Cables and Control Cables</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Transmission Lines Conductor &amp; Towers</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Substations General Equipment</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Construction Tab Content -->
+        <div class="construction main-services" style="display: none;">
+          <div class="about-grid" style="margin-top: 40px;">
+            <div class="about-text" style="background-color: var(--white); padding: 40px; border-radius: 8px; border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+              <h3 style="font-size: 24px; color: var(--primary); margin-bottom: 20px; text-transform: uppercase;">Construction Works</h3>
+              <ul style="list-style: none; display: flex; flex-direction: column; gap: 15px;">
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Residential Units</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Commercial Units</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Electrical Grid Stations</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Renovation and Uplifting Works</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="about-text" style="background-color: var(--white); padding: 40px; border-radius: 8px; border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+              <h3 style="font-size: 20px; color: var(--dark); margin-bottom: 20px; text-transform: uppercase;">Equipment Installation</h3>
+              <p style="margin-bottom: 20px; font-weight: 500; font-size: 14px;">Installation of Equipment/Material including Testing and Commissioning:</p>
+              <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px;">
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>HVAC Systems</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Electrical Grid Station Switch Yard &amp; Control House Equipment</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Lifts and Escalators</span>
+                </li>
+                <li style="display: flex; gap: 10px; align-items: flex-start;">
+                  <i class="icon-checked orange-icon" style="margin-top: 3px;"></i>
+                  <span>Transmission line tower erection, conductor stringing, and hardware installation.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+          <a href="work.html" class="btn-modern">VIEW OUR PROJECTS</a>
         </div>
       </div>
-     </div>
-      <div class="container main-services construction">
-       <div class="row">
-         <div class="col-xs-12">
-           <h3>CONSTRUCTION WORKS</h3>
-           <h6>Services we offer</h6>
-           <div class="img-wrapper">
-             <img src="img/lines-orange.png" alt="">
-           </div>
-         </div>
-       </div>
-       <div class="row">
-         <div class="col-md-offset-1 col-md-5 col-sm-6 col-xs-12 grey-text-left extra-space">
-           <i class="icon-checked"></i><pre>Residential Units</pre><br>
-           <i class="icon-checked"></i><pre>Commercial Units</pre><br>
-           <i class="icon-checked"></i><pre>Electrical Grid Stations</pre><br>
-           <i class="icon-checked"></i><pre>Renovation and Uplifting</pre>
-         </div>
-         <div class="col-md-5 col-sm-6 col-xs-12 grey-text-right">
-           <h4>Installation Of Equipment / Material including 
-Testing and Commissioning</h4><br>
-        <i class="icon-checked"></i><pre>HVAC</pre><br>
-        <i class="icon-checked"></i><pre>Electrical Grid Station Switch Yard Equipment</pre><br>
-        <i class="icon-checked"></i><pre>Electrical Grid Station Control House Building 
-Equipment</pre><br>
-        <i class="icon-checked"></i><pre>Lifts and Escalators</pre><br>
-        <i class="icon-checked"></i><pre>Transmission lines tower Erection , Stringing of 
-Conductor and installation of Hardware.</pre><br>
-         </div>
-       </div>
-       <div class="button-wrapper">
-          <a href="work.html"><button class="button orange-btn">View Our Projects</button></a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-about">
+          <img src="img/logo.png" alt="Unirazz Logo">
+          <p>UNIRAZZ Services takes pride in our delivery, ensuring only the most experienced and qualified people serve our clients at all times.</p>
         </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <p style="font-size: 14px; margin-bottom: 8px;">29-31, First Floor, Israr Centre, B-I, Johar Town, Lahore-Pakistan</p>
+          <p style="font-size: 14px; margin-bottom: 8px;">Tel: +92-320-(UNIRAZZ)</p>
+          <p style="font-size: 14px;"><a href="mailto:info@unirazz.com">info@unirazz.com</a></p>
         </div>
-     <div class="container main-services designing">
-       <div class="row">
-         <div class="col-xs-12">
-           <h3>DESIGNING</h3>
-           <h6>Services we offer</h6>
-           <div class="img-wrapper">
-             <img src="img/lines-orange.png" alt="">
-           </div>
-         </div>
-       </div>
-       <div class="row">
-         <div class="col-md-offset-1 col-md-5 col-sm-6 col-xs-12 grey-text-left">
-           <i class="icon-checked"></i><p>Residential and Commercial Units Architectural and Structural Drawings and Designing.</p><br>
-           <i class="icon-checked"></i><p>Substation Design which includes Primary Designing / Secondary Designing, Protection schemes , Civil Foundation Drawings .Primary Design includes</p><br>
-         </div>
-         <div class="col-md-5 col-sm-6 col-xs-12 grey-text-right">
-          <i class="icon-checked"></i><p>Single Line Diagrams / Layout Plans / Switch Yard Plans and Control House Building Equipment Layout, Foundation Plans</p><br>
-           <i class="icon-checked"></i><p>Detail designing of equipment foundations as per equipment and Soil investigation reports Control House Building, Structural and Architectural Design</p>
-         </div>
-       </div>
-       <div class="button-wrapper">
-          <a href="work.html"><button class="button orange-btn">View Our Projects</button></a>
+        <div class="footer-col">
+          <h4>Sitemap</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="vision-mission.html">Vision &amp; Mission</a></li>
+            <li><a href="hierarchy.html">Hierarchy</a></li>
+          </ul>
         </div>
-     </div> 
-     <div class="container main-services consultancy">
-       <div class="row">
-         <div class="col-xs-12">
-           <h3>PROCUREMENT CONSULTANCY</h3>
-           <h6>Services we offer</h6>
-           <div class="img-wrapper">
-             <img src="img/lines-orange.png" alt="">
-           </div>
-         </div>
-       </div>
-       <div class="row">
-         <div class="col-md-offset-1 col-md-5 col-sm-6 col-xs-12 grey-text-left">
-          <h4>Procurement Consultancy and Supplier of Substation &amp; Transmission Line Equipment and Material</h4>
-           <i class="icon-checked"></i><p>Power Transformers / Auto Transformer / Distribution Transformers</p><br>
-           <i class="icon-checked"></i><p>Switch Yard Equipment</p><br>
-           <i class="icon-checked"></i><p>Control House Building Control and Protection Panels</p><br>
-           <i class="icon-checked"></i><p>Steel Structures</p><br>
-           <i class="icon-checked"></i><p>Termination Material</p><br>
-           <i class="icon-checked"></i><p>Testing Equipment</p><br>
-           <i class="icon-checked"></i><p>Yard Lighting</p><br>
-         </div>
-         <div class="col-md-5 col-sm-6 col-xs-12 grey-text-right extra-space">
-        <i class="icon-checked"></i><pre>Lightening Protection Equipment</pre><br>
-        <i class="icon-checked"></i><pre>Substation and Transmission Line Hardware</pre><br>
-        <i class="icon-checked"></i><pre>Power Cables and Control Cables</pre><br>
-        <i class="icon-checked"></i><pre>Transmission Lines Conductor</pre><br>
-        <i class="icon-checked"></i><pre>Transmission Lines Towers</pre><br>
-        <i class="icon-checked"></i><pre>Substations General Equipment</pre><br>
-         </div>
-       </div>
-       <div class="button-wrapper">
-          <a href="work.html"><button class="button orange-btn">View Our Projects</button></a>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="work.html">Our Work</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
         </div>
-     </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Unirazz Services. All Rights Reserved.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn"><span class="icon-checked" style="font-size:12px;"></span></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Tab Active State Styling Helper -->
+    <script>
+      $(function() {
+        $('.tab-btn').on('click', function() {
+          $('.tab-btn').removeClass('active');
+          $(this).addClass('active');
+        });
+      });
+    </script>
   </body>
-   <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-2">
-          <a href="index.html">
-            <img src="img/logo.png" alt="">
-          </a>
-        </div>
-        <div class="col-xs-3">
-          <pre class="bottom-text">29, First Floor, Israr Centre, B-I, Johar Town, Lahore-Pakistan
-Tel: +92-42-3522 3011 
-<a class="bottom-text" href="mailto:info@unirazz.com" target="_top">info@unirazz.com</a>
-          </pre>
-        </div>
-        <div class="col-sm-3 col-md-2">
-          <ul>
-            <a href="index.html"><li class="sitemap-text">Home</li></a>
-            <a href="about.html"><li class="sitemap-text">About Us</li></a>
-            <a href="vision-mission.html"><li class="sitemap-text">Vision &amp; Mission</li></a>
-            <a href="hierarchy.html"><li class="sitemap-text">Hierarchy</li></a>
-          </ul>
-        </div>
-        <div class="col-sm-3 col-md-2">
-          <ul>
-            <a href="work.html"><li class="sitemap-text">Our Work</li></a>
-            <a href="services.html"><li class="sitemap-text">Our Services</li></a>
-            <a href="contact.html"><li class="sitemap-text">Contact</li></a>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
 </html>

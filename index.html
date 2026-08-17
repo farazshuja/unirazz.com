@@ -1,197 +1,447 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    
-    <!-- Fonts and Icons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/modern.css">
-    
-    <title>Unirazz Services - Home</title>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b2f5b" />
+    <meta
+      name="description"
+      content="Unirazz Services provides one-window engineering, procurement, construction, testing and commissioning for power and civil infrastructure across Pakistan."
+    />
+    <meta
+      name="keywords"
+      content="Unirazz Services, EPC Pakistan, grid station contractor, 132kV substation, transmission line, civil construction, Lahore"
+    />
+    <meta property="og:title" content="Unirazz Services | Construction, Management & Engineering" />
+    <meta
+      property="og:description"
+      content="One accountable team from engineering and procurement to construction, commissioning and handover."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.unirazz.com/" />
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Unirazz Services | EPC, Construction & Engineering</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "GeneralContractor",
+        "name": "Unirazz Services",
+        "url": "https://www.unirazz.com/",
+        "email": "info@unirazz.com",
+        "telephone": "+92-42-35173045",
+        "foundingDate": "2005",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite No. 8, 2nd Floor, 11-B Commercial Market, Valencia Town",
+          "addressLocality": "Lahore",
+          "addressCountry": "PK"
+        },
+        "areaServed": "Pakistan"
+      }
+    </script>
   </head>
-  
   <body>
-    <!-- Top Contact Bar -->
-    <div class="top-menu">
-      <div class="container">
-        <div class="top-contact">
-          <span><i class="icon-phone orange-icon"></i> +92-320-(UNIRAZZ)</span>
-          <a href="mailto:info@unirazz.com"><i class="icon-envelope orange-icon"></i> info@unirazz.com</a>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="site-header">
+      <div class="utility-bar">
+        <div class="shell utility-inner">
+          <span>Construction <i></i> Management <i></i> Engineering</span>
+          <a href="mailto:info@unirazz.com">info@unirazz.com</a>
         </div>
       </div>
-    </div>
-
-    <!-- Header & Navigation -->
-    <header>
-      <nav class="navbar-custom">
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" alt="Unirazz Logo">
+      <div class="shell nav-wrap">
+        <a class="brand" href="#home" aria-label="Unirazz Services home">
+          <img src="assets/unirazz-logo.png" alt="Unirazz Services" width="180" height="153" />
         </a>
-        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
-          <span></span>
-          <span></span>
-          <span></span>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Open navigation</span>
         </button>
-        <ul class="nav-links" id="navLinks">
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="vision-mission.html">Vision &amp; Mission</a></li>
-          <li><a href="hierarchy.html">Hierarchy</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="work.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+          <a class="active" href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-      <div class="hero-content">
-        <h1 class="hero-title">Building The Future<br>With Precision</h1>
-        <p class="hero-subtitle">Unirazz Services – Your Trusted Partner in Construction and Engineering.</p>
-        <a href="work.html" class="btn-modern">VIEW OUR PROJECTS</a>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="section-bg-light">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Our Services</h2>
-          <p class="section-subtitle">This is what we do</p>
-        </div>
-        
-        <div class="services-grid">
-          <a href="services.html" class="service-card-modern">
-            <div class="service-icon-box">
-              <i class="icon-sketch"></i>
+    <main id="main-content">
+      <section class="hero" id="home">
+        <img class="hero-image" src="assets/hero-grid.webp" alt="High-voltage grid station delivered by Unirazz Services" />
+        <div class="hero-overlay"></div>
+        <div class="shell hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span></span> Integrated EPC delivery since 2005</div>
+            <h1>Infrastructure that<br /><em>powers progress.</em></h1>
+            <p>
+              Engineering, procurement, construction, testing and commissioning—managed by one accountable team for dependable power and civil infrastructure.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#services">Explore our capabilities <span>↗</span></a>
+              <a class="button button-ghost" href="#projects">View selected projects</a>
             </div>
-            <h3>Design & Engineering</h3>
-            <p>Unirazz provides the design, drawings, approvals, and construction calculations for small to medium size projects.</p>
-          </a>
-          
-          <a href="services.html" class="service-card-modern">
-            <div class="service-icon-box">
-              <i class="icon-manager"></i>
-            </div>
-            <h3>Procurement Consultancy</h3>
-            <p>Providing optimal supply chains, procurement consultancy, and reliable material sourcing for engineering works.</p>
-          </a>
-          
-          <a href="services.html" class="service-card-modern">
-            <div class="service-icon-box">
-              <i class="icon-construction"></i>
-            </div>
-            <h3>Construction Works</h3>
-            <p>Excellent construction works and project management services to coordinate specialist trades for industrial and commercial projects.</p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Who We Are Section -->
-    <section>
-      <div class="container">
-        <div class="about-grid">
-          <div class="about-image">
-            <img src="img/blueprint_isometric.jpg" alt="Blueprint Isometric">
           </div>
-          <div class="about-text">
-            <h3>Who We Are</h3>
-            <p>UNIRAZZ services began as a general works contractor in 2005. Over the years, the company has undertaken many challenging projects and accumulated skills, know-how and experiences in design and build solutions, project management services, building trades and related engineering works.</p>
-            <p>Today, UNIRAZZ services takes on the role of main contractor for small to medium size projects and performs project management services to coordinates specialist trades for industrial/commercial projects. We also provide design inputs and engineering solutions as value-add services to our clients.</p>
-            <a href="about.html" class="btn-modern">MORE ABOUT US</a>
+
+          <aside class="hero-card reveal" aria-label="Company highlights">
+            <div class="hero-card-top">
+              <span class="status-dot"></span>
+              Pakistan-wide execution
+            </div>
+            <strong>Power. Build. Deliver.</strong>
+            <p>From early studies and approvals to energized assets and final handover.</p>
+            <div class="hero-card-stats">
+              <div><b>20+</b><span>Years of delivery</span></div>
+              <div><b>500 kV</b><span>Team experience</span></div>
+            </div>
+          </aside>
+        </div>
+        <a class="scroll-cue" href="#proof" aria-label="Scroll to company highlights">
+          <span>Discover</span><i></i>
+        </a>
+      </section>
+
+      <section class="proof-band" id="proof" aria-label="Company facts">
+        <div class="shell proof-grid">
+          <div class="proof-item reveal">
+            <b>20+</b>
+            <span>Years in engineering<br />and construction</span>
+          </div>
+          <div class="proof-item reveal">
+            <b>132–500 kV</b>
+            <span>Grid infrastructure<br />team experience</span>
+          </div>
+          <div class="proof-item reveal">
+            <b>100+</b>
+            <span>Residential units<br />delivered by the team</span>
+          </div>
+          <div class="proof-item reveal">
+            <b>43,000 m³</b>
+            <span>Rainwater reservoir<br />construction</span>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Project Statistics Section -->
-    <section class="stats-section">
-      <div class="container">
-        <div class="stats-grid">
-          <div class="stat-card-modern">
-            <div class="stat-num">40+</div>
-            <div class="stat-info">
-              <h4>Projects Completed</h4>
-              <p>Delivered on schedule and specification</p>
-            </div>
-            <div class="stat-icon"><i class="icon-buildings"></i></div>
+      <section class="intro-section section-pad">
+        <div class="shell intro-grid">
+          <div class="section-heading reveal">
+            <div class="eyebrow dark"><span></span> One-window project delivery</div>
+            <h2>Built around your<br />project objective.</h2>
           </div>
-          <div class="stat-card-modern">
-            <div class="stat-num">60+</div>
-            <div class="stat-info">
-              <h4>Workers & Staff</h4>
-              <p>Experienced & qualified professionals</p>
+          <div class="intro-copy reveal">
+            <p class="lead">
+              Unirazz Services is an engineering, procurement, fabrication, construction and maintenance company delivering integrated solutions for complex capital projects.
+            </p>
+            <p>
+              Our work spans electrical substations, transmission lines, industrial and commercial buildings, residential units and related civil, mechanical and electrical systems. Clear communication, disciplined planning and close quality supervision remain central from concept to completion.
+            </p>
+            <div class="assurance-line">
+              <span>01</span>
+              <p><strong>The “I am assured” experience.</strong> One coordinated delivery team, transparent follow-through and the client’s priorities at the centre of every decision.</p>
             </div>
-            <div class="stat-icon"><i class="icon-constructor"></i></div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Partners / Clients Section -->
-    <section class="section-bg-light">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Our Partners</h2>
-          <p class="section-subtitle">Trusted by industry leaders</p>
-        </div>
-        <div class="clients-grid">
-          <img src="img/partner1.jpg" alt="Partner Logo">
-          <img src="img/partner2.jpg" alt="Partner Logo">
-          <img src="img/partner3.jpg" alt="Partner Logo">
-          <img src="img/partner4.jpg" alt="Partner Logo">
-          <img src="img/partner5.jpg" alt="Partner Logo">
-        </div>
-      </div>
-    </section>
+      <section class="services section-pad" id="services">
+        <div class="shell">
+          <div class="section-top reveal">
+            <div>
+              <div class="eyebrow light"><span></span> Services</div>
+              <h2>Integrated capability.<br /><em>One accountable team.</em></h2>
+            </div>
+            <p>Technical depth and site execution brought together under a practical EPC and management-contractor model.</p>
+          </div>
 
-    <!-- Footer -->
-    <footer>
-      <div class="footer-container">
-        <div class="footer-about">
-          <img src="img/logo.png" alt="Unirazz Logo">
-          <p>UNIRAZZ Services takes pride in our delivery, ensuring only the most experienced and qualified people serve our clients at all times.</p>
+          <div class="service-grid">
+            <article class="service-card featured reveal">
+              <span class="service-no">01</span>
+              <div>
+                <h3>Grid Stations & Power Infrastructure</h3>
+                <p>Turnkey delivery for AIS/GIS substations, augmentation and extension works from civil foundations to energization.</p>
+                <ul>
+                  <li>Primary and secondary systems</li>
+                  <li>Control, protection and interconnection</li>
+                  <li>Installation, testing and commissioning</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-no">02</span>
+              <div>
+                <h3>Transmission Lines</h3>
+                <p>Route survey, profile planning, foundations, tower or pole erection, conductor stringing and commissioning.</p>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-no">03</span>
+              <div>
+                <h3>Engineering & Design</h3>
+                <p>Architectural, structural, civil, electrical and MEP design supported by system studies and coordinated drawings.</p>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-no">04</span>
+              <div>
+                <h3>Procurement Consultancy</h3>
+                <p>Specifications, tender documents, technical evaluation and sourcing for transformers, switchyard and line equipment.</p>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-no">05</span>
+              <div>
+                <h3>Civil & Building Works</h3>
+                <p>Industrial, commercial and residential construction, renovation, structural strengthening and infrastructure works.</p>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-no">06</span>
+              <div>
+                <h3>Studies, Testing & Maintenance</h3>
+                <p>Load flow, short-circuit and protection studies, inspection, testing, commissioning and planned maintenance support.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="capability-panel reveal">
+            <div class="capability-title">
+              <span>Execution readiness</span>
+              <h3>Equipped for field delivery.</h3>
+              <p>Owned construction plant and specialized erection tools, with project-specific high-voltage testing equipment mobilized as required.</p>
+            </div>
+            <div class="capability-list">
+              <div><b>Survey</b><span>Total stations, theodolites and auto levels</span></div>
+              <div><b>Civil QA</b><span>Concrete, compaction and material test tools</span></div>
+              <div><b>Electrical</b><span>Hydraulic presses, torque tools and erection kits</span></div>
+              <div><b>Testing</b><span>Breaker timing, insulation and contact resistance testing</span></div>
+            </div>
+          </div>
         </div>
-        <div class="footer-col">
-          <h4>Contact Us</h4>
-          <p style="font-size: 14px; margin-bottom: 8px;">29-31, First Floor, Israr Centre, B-I, Johar Town, Lahore-Pakistan</p>
-          <p style="font-size: 14px; margin-bottom: 8px;">Tel: +92-320-(UNIRAZZ)</p>
-          <p style="font-size: 14px;"><a href="mailto:info@unirazz.com">info@unirazz.com</a></p>
+      </section>
+
+      <section class="projects section-pad" id="projects">
+        <div class="shell">
+          <div class="section-top projects-top reveal">
+            <div>
+              <div class="eyebrow dark"><span></span> Selected projects</div>
+              <h2>Experience measured<br />in delivered assets.</h2>
+            </div>
+            <p>Representative assignments across power infrastructure, civil construction and resource conservation.</p>
+          </div>
+
+          <article class="project-feature reveal">
+            <div class="project-feature-image">
+              <img src="assets/project-grid.webp" alt="High-voltage transformer and switchyard" loading="lazy" />
+              <span>Power infrastructure</span>
+            </div>
+            <div class="project-feature-copy">
+              <div class="project-meta">Kohinoor Textile Mills Limited · Rawalpindi</div>
+              <h3>132/11.5 kV Consumer Grid Station</h3>
+              <p>
+                Engineering, procurement and construction of two 132 kV line bays and one 20/26 MVA transformer bay, including incoming and outgoing MV panels, civil works, installation, testing and commissioning.
+              </p>
+              <div class="project-facts">
+                <div><b>132 kV</b><span>System voltage</span></div>
+                <div><b>20/26 MVA</b><span>Transformer bay</span></div>
+                <div><b>EPC</b><span>Delivery model</span></div>
+              </div>
+            </div>
+          </article>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-image">
+                <img src="assets/project-installation.webp" alt="Transformer installation works" loading="lazy" />
+                <span>Grid augmentation</span>
+              </div>
+              <div class="project-body">
+                <small>LUMS · Lahore</small>
+                <h3>132/11.5 kV Augmentation & Line Relocation</h3>
+                <p>Transformer augmentation with allied control and protection works, plus relocation of a 132 kV transmission line.</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-image">
+                <img src="assets/project-commissioning.webp" alt="Technicians commissioning switchyard equipment" loading="lazy" />
+                <span>Extension works</span>
+              </div>
+              <div class="project-body">
+                <small>NTDC · Sangjani & Kassowal</small>
+                <h3>220/132 kV Grid Station Extensions</h3>
+                <p>Civil works, assembly, erection, testing and commissioning for 160 MVA autotransformer extension projects.</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-image">
+                <img src="assets/project-commercial.webp" alt="Packages Mall external development at night" loading="lazy" />
+                <span>Commercial</span>
+              </div>
+              <div class="project-body">
+                <small>Packages Group · Lahore</small>
+                <h3>Grid, External Development & Building Works</h3>
+                <p>132 kV AIS grid station, underground interconnection and diverse civil, MEP and external development packages.</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-image">
+                <img src="assets/project-reservoir.webp" alt="Completed rainwater harvesting reservoir" loading="lazy" />
+                <span>Water conservation</span>
+              </div>
+              <div class="project-body">
+                <small>Kohinoor Textile Mills · Rawalpindi</small>
+                <h3>43,000 m³ Rainwater Reservoir II</h3>
+                <p>Construction of the reservoir with associated diversion drains, collection pits and surrounding water-management works.</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-image">
+                <img src="assets/project-civil.webp" alt="Multi-storey civil structure under construction" loading="lazy" />
+                <span>Civil construction</span>
+              </div>
+              <div class="project-body">
+                <small>Industrial & commercial portfolio</small>
+                <h3>Complex Civil, Structural & MEP Works</h3>
+                <p>Industrial buildings, healthcare and education facilities, high-rise commercial projects and residential delivery.</p>
+              </div>
+            </article>
+
+            <article class="project-card dark-card reveal">
+              <div class="project-body">
+                <small>Wider portfolio</small>
+                <h3>From 500 kV assets to 100 MW solar inspection</h3>
+                <p>Experience includes Mangla Power House, Shikarpur, Noor Sar, Miran Pur, Askari Cement and Quaid-e-Azam Solar Park assignments.</p>
+                <a href="#contact">Discuss a similar project <span>↗</span></a>
+              </div>
+            </article>
+          </div>
         </div>
-        <div class="footer-col">
-          <h4>Sitemap</h4>
-          <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="vision-mission.html">Vision &amp; Mission</a></li>
-            <li><a href="hierarchy.html">Hierarchy</a></li>
-          </ul>
+      </section>
+
+      <section class="delivery section-pad">
+        <div class="shell delivery-grid">
+          <div class="delivery-heading reveal">
+            <div class="eyebrow light"><span></span> How we deliver</div>
+            <h2>Control at every<br /><em>project interface.</em></h2>
+            <p>Our process aligns stakeholders, designs, procurement, site delivery and commissioning around a single, tracked programme.</p>
+          </div>
+          <ol class="delivery-steps">
+            <li class="reveal"><span>01</span><div><h3>Define</h3><p>Scope, constraints, studies and approvals</p></div></li>
+            <li class="reveal"><span>02</span><div><h3>Engineer</h3><p>Coordinated designs, drawings and specifications</p></div></li>
+            <li class="reveal"><span>03</span><div><h3>Execute</h3><p>Procurement, construction and quality control</p></div></li>
+            <li class="reveal"><span>04</span><div><h3>Energize</h3><p>Testing, commissioning and handover</p></div></li>
+          </ol>
         </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <ul class="footer-links">
-            <li><a href="work.html">Our Work</a></li>
-            <li><a href="services.html">Our Services</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
+      </section>
+
+      <section class="credentials" aria-label="Registrations and market sectors">
+        <div class="shell credential-grid reveal">
+          <div>
+            <span>Registered & compliant</span>
+            <strong>PEC · FBR · Revenue Authorities</strong>
+          </div>
+          <div>
+            <span>Core market sectors</span>
+            <strong>Power · Industry · Commercial · Public Works</strong>
+          </div>
+          <div>
+            <span>Quality focus</span>
+            <strong>HSE · QA/QC · Programme Control</strong>
+          </div>
         </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="shell contact-grid">
+          <div class="contact-copy reveal">
+            <div class="eyebrow light"><span></span> Contact</div>
+            <h2>Let’s build the<br /><em>right solution.</em></h2>
+            <p>Share your project objective, site location and expected timeline. Our team will connect you with the right technical lead.</p>
+
+            <div class="contact-details">
+              <a href="mailto:info@unirazz.com">
+                <span>Email</span>
+                <strong>info@unirazz.com</strong>
+              </a>
+              <div>
+                <span>Phone</span>
+                <strong><a href="tel:+924235173045">+92 42 3517 3045</a><br /><a href="tel:+924238938539">+92 42 3893 8539</a></strong>
+              </div>
+              <div>
+                <span>Office</span>
+                <strong>Suite No. 8, 2nd Floor, 11-B Commercial Market,<br />Valencia Town, Lahore, Pakistan</strong>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="enquiry-form">
+            <div class="form-row">
+              <label>
+                <span>Your name</span>
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Company</span>
+                <input type="text" name="company" autocomplete="organization" />
+              </label>
+            </div>
+            <label>
+              <span>Email address</span>
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              <span>Service required</span>
+              <select name="service" required>
+                <option value="">Select a service</option>
+                <option>Grid station / power infrastructure</option>
+                <option>Transmission line</option>
+                <option>Engineering / consultancy</option>
+                <option>Procurement</option>
+                <option>Civil / building works</option>
+                <option>Testing / commissioning</option>
+              </select>
+            </label>
+            <label>
+              <span>Project brief</span>
+              <textarea name="message" rows="5" placeholder="Location, scope and target timeline" required></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Prepare email enquiry <span>↗</span></button>
+            <p class="form-note">Submitting opens your email application with the enquiry pre-filled.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <div class="footer-brand">
+          <img src="assets/unirazz-logo.png" alt="Unirazz Services" width="180" height="153" />
+          <p>Construction, Management & Engineering</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="back-top" href="#home">Back to top <span>↑</span></a>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Unirazz Services. All Rights Reserved.</p>
-        <div class="social-links">
-          <a href="#" class="social-btn"><span class="icon-checked" style="font-size:12px;"></span></a>
-        </div>
+      <div class="shell footer-bottom">
+        <span>© <span id="year"></span> Unirazz Services. All rights reserved.</span>
+        <span>We build your future.</span>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "build:blog": "npm --prefix blog-source run build",
+    "dev:blog": "npm --prefix blog-source run dev"
+  }
+}

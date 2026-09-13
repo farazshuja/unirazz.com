@@ -17,3 +17,18 @@ new tab from the featured Kohinoor Textile Mills consumer grid station project
 and presents the seven-phase EPCC delivery methodology. Keep the included
 `robots.txt` and `sitemap.xml` at the site root so search engines can discover
 all pages.
+
+## Blog
+
+The generated VitePress blog is published from `/blog` at
+`https://www.unirazz.com/blog/`. Add or edit article Markdown files in
+`/blog-source/docs/articles/`, update the article list in
+`/blog-source/docs/.vitepress/config.mjs`, then run:
+
+```bash
+npm run build:blog
+```
+
+Run `npm install` once inside `/blog-source` before the first build. The build
+updates `/blog` in place, ready to commit and push with the rest of this static
+site.

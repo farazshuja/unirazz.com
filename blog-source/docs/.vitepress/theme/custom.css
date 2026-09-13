@@ -1,0 +1,29 @@
+:root { --vp-c-brand-1:#e89b29; --vp-c-brand-2:#f4b653; --vp-c-brand-3:#c9790e; --vp-c-bg:#f7f8f8; --vp-c-bg-alt:#eef1f2; --vp-c-text-1:#061426; --vp-font-family-base:Inter,"Segoe UI",Arial,sans-serif; }
+.VPNavBar { background:rgba(247,248,248,.96); border-bottom:1px solid #dce2e5; }
+.VPNavBarTitle .title { letter-spacing:.12em; font-size:.78rem; font-weight:800; }
+.VPNavBar .logo { height:34px; width:auto; object-fit:contain; }
+.VPDoc .content-container { max-width:760px; }
+.VPDoc .content h1 { color:#061426; font-size:clamp(2.25rem,5vw,4rem); line-height:1.04; letter-spacing:-.045em; }
+.VPDoc .content h2 { border-top-color:#dce2e5; margin-top:3rem; }
+.VPDoc .content p,.VPDoc .content li { font-size:1.06rem; line-height:1.8; }
+.VPDoc .content a { font-weight:650; }
+.VPDoc .content img { border-radius:4px; box-shadow:0 16px 45px rgba(6,20,38,.14); }
+.VPSidebar { background:#061426; }
+.VPSidebar .VPSidebarItem .text { color:#e8edf0; }
+.VPSidebar .VPSidebarItem.is-active > .item > .link > .text { color:#f4b653; }
+.VPFooter { border-top-color:#dce2e5; }
+.VPFeature {
+  border: 1px solid #36506a;
+  background: #15263a;
+  box-shadow: 0 10px 24px rgba(6,20,38,.13);
+}
+.VPFeature .title { color: #f8fafc; }
+.VPFeature .details { color: #d9e3ec; }
+.VPFeature:hover { border-color: #e89b29; background: #1b314a; }
+.VPButton.alt {
+  --vp-button-alt-bg: #24364d;
+  --vp-button-alt-text: #f8fafc;
+  --vp-button-alt-hover-bg: #36506a;
+  --vp-button-alt-hover-text: #ffffff;
+}
+@media (min-width:960px) { .VPDoc { padding-top:70px; } }
